@@ -1,0 +1,1466 @@
+[2019-02-05 23:08:18,186] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:12:32,370] INFO [GroupCoordinator 0]: Member consumer-2-bb0cadf3-17ca-4c62-8e4f-89c609491e2e in group group_id has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:12:32,371] INFO [GroupCoordinator 0]: Preparing to rebalance group group_id in state PreparingRebalance with old generation 6 (__consumer_offsets-13) (reason: removing member consumer-2-bb0cadf3-17ca-4c62-8e4f-89c609491e2e on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:12:34,478] INFO [GroupCoordinator 0]: Stabilized group group_id generation 7 (__consumer_offsets-13) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:12:34,480] INFO [GroupCoordinator 0]: Assignment received from leader for group group_id for generation 7 (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:17:44,751] INFO [GroupCoordinator 0]: Preparing to rebalance group group_id in state PreparingRebalance with old generation 7 (__consumer_offsets-13) (reason: Adding new member consumer-2-12251894-39f6-449b-a7dd-dd8000ed79f7) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:17:46,962] INFO [GroupCoordinator 0]: Stabilized group group_id generation 8 (__consumer_offsets-13) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:17:46,963] INFO [GroupCoordinator 0]: Assignment received from leader for group group_id for generation 8 (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:18:18,187] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:28:18,187] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:38:18,187] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:48:18,187] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:55:08,112] WARN Client session timed out, have not heard from server in 4003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:08,113] INFO Client session timed out, have not heard from server in 4003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:09,879] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:09,880] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:15,886] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:15,886] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:39,483] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-02-05 23:55:39,691] INFO starting (kafka.server.KafkaServer)
+[2019-02-05 23:55:39,692] INFO Connecting to zookeeper on 192.168.31.164:2181 (kafka.server.KafkaServer)
+[2019-02-05 23:55:39,704] INFO [ZooKeeperClient] Initializing a new session to 192.168.31.164:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:55:39,716] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:host.name=boeingwave3-deepak (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.version=11.0.1 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.home=/usr/lib/jvm/java-11-oracle (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.class.path=/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/activation-1.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/audience-annotations-0.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/commons-lang3-3.5.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping.asc:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-api-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-basic-auth-extension-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-file-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-json-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-runtime-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-transforms-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/guava-20.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-api-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-core-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-databind-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-base-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jaxb-api-2.3.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-client-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-common-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-hk2-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-media-jaxb-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-server-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-client-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-continuation-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-http-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-io-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-security-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-server-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlet-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlets-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-util-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0-sources.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-clients-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-log4j-appender-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-examples-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-scala_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-test-utils-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-tools-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/log4j-1.2.17.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/lz4-java-1.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/maven-artifact-3.5.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/reflections-0.9.11.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/rocksdbjni-5.14.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-library-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/snappy-java-1.1.7.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zkclient-0.10.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zookeeper-3.4.13.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zstd-jni-1.3.5-4.jar (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,716] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:os.version=4.15.0-43-generic (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:user.name=user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:user.home=/home/user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,717] INFO Client environment:user.dir=/home/user/Downloads/kafka_2.11-2.1.0 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,718] INFO Initiating client connection, connectString=192.168.31.164:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@c2db68f (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:39,729] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:55:39,753] INFO Opening socket connection to server 192.168.31.164/192.168.31.164:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:40,289] INFO Socket connection established to 192.168.31.164/192.168.31.164:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:40,534] INFO Session establishment complete on server 192.168.31.164/192.168.31.164:2181, sessionid = 0x100006bf6370000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:40,544] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:55:44,108] INFO Cluster ID = bN2BQyK8SSGPomz3pMview (kafka.server.KafkaServer)
+[2019-02-05 23:55:44,190] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:55:44,202] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:55:44,220] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:44,221] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:44,222] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:44,255] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.kafka.common.KafkaException: Failed to acquire lock on file .lock in /tmp/kafka-logs. A Kafka instance in another process or thread is using this directory.
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:240)
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:236)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at kafka.log.LogManager.lockLogDirs(LogManager.scala:236)
+	at kafka.log.LogManager.<init>(LogManager.scala:97)
+	at kafka.log.LogManager$.apply(LogManager.scala:990)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:237)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-02-05 23:55:44,257] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:55:44,259] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:55:44,287] INFO Session: 0x100006bf6370000 closed (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:55:44,291] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:55:44,291] INFO EventThread shut down for session: 0x100006bf6370000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:55:44,293] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:45,222] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:45,222] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:45,222] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,222] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,222] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,222] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,223] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,223] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:55:46,237] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-02-05 23:55:46,238] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-02-05 23:55:46,242] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:55:59,837] INFO [GroupCoordinator 0]: Member consumer-1-30eb8769-d8ce-4986-a2c6-41da916ffdcd in group group_id has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,837] INFO [GroupCoordinator 0]: Preparing to rebalance group group_id in state PreparingRebalance with old generation 8 (__consumer_offsets-13) (reason: removing member consumer-1-30eb8769-d8ce-4986-a2c6-41da916ffdcd on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,837] INFO [GroupCoordinator 0]: Member consumer-2-12251894-39f6-449b-a7dd-dd8000ed79f7 in group group_id has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,837] INFO [GroupCoordinator 0]: Group group_id with generation 9 is now empty (__consumer_offsets-13) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,841] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-02-05 23:55:59,841] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-02-05 23:55:59,841] INFO [GroupCoordinator 0]: Preparing to rebalance group group_id in state PreparingRebalance with old generation 9 (__consumer_offsets-13) (reason: Adding new member consumer-2-0859091a-15b0-42a7-9b1e-f06e8057d454) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,843] INFO [GroupCoordinator 0]: Stabilized group group_id generation 10 (__consumer_offsets-13) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:55:59,844] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:55:59,845] INFO [KafkaServer id=0] Starting controlled shutdown (kafka.server.KafkaServer)
+[2019-02-05 23:55:59,946] INFO [GroupCoordinator 0]: Preparing to rebalance group group_id in state PreparingRebalance with old generation 10 (__consumer_offsets-13) (reason: Adding new member consumer-1-e2d5e890-aeeb-43c9-b103-5499c23de9a6) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:56:01,021] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:01,022] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:07,027] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:07,027] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:07,130] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:09,087] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:09,087] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:09,844] INFO [GroupCoordinator 0]: Member consumer-1-ef360ce0-a3bc-404b-804b-27db904decf9 in group group_id has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:56:09,845] INFO [GroupCoordinator 0]: Member consumer-2-0859091a-15b0-42a7-9b1e-f06e8057d454 in group group_id has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:56:09,846] INFO [GroupCoordinator 0]: Stabilized group group_id generation 11 (__consumer_offsets-13) (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:56:09,848] INFO [GroupCoordinator 0]: Assignment received from leader for group group_id for generation 11 (kafka.coordinator.group.GroupCoordinator)
+[2019-02-05 23:56:15,089] WARN Client session timed out, have not heard from server in 6002ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:15,090] INFO Client session timed out, have not heard from server in 6002ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:16,774] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:16,775] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:22,763] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-02-05 23:56:22,779] WARN Client session timed out, have not heard from server in 6005ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:22,779] INFO Client session timed out, have not heard from server in 6005ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:22,977] INFO starting (kafka.server.KafkaServer)
+[2019-02-05 23:56:22,978] INFO Connecting to zookeeper on 192.168.31.164:2181 (kafka.server.KafkaServer)
+[2019-02-05 23:56:22,989] INFO [ZooKeeperClient] Initializing a new session to 192.168.31.164:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:23,156] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,156] INFO Client environment:host.name=boeingwave3-deepak (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,157] INFO Client environment:java.version=11.0.1 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,157] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,157] INFO Client environment:java.home=/usr/lib/jvm/java-11-oracle (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,157] INFO Client environment:java.class.path=/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/activation-1.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/audience-annotations-0.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/commons-lang3-3.5.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping.asc:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-api-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-basic-auth-extension-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-file-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-json-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-runtime-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-transforms-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/guava-20.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-api-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-core-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-databind-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-base-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jaxb-api-2.3.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-client-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-common-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-hk2-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-media-jaxb-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-server-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-client-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-continuation-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-http-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-io-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-security-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-server-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlet-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlets-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-util-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0-sources.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-clients-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-log4j-appender-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-examples-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-scala_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-test-utils-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-tools-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/log4j-1.2.17.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/lz4-java-1.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/maven-artifact-3.5.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/reflections-0.9.11.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/rocksdbjni-5.14.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-library-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/snappy-java-1.1.7.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zkclient-0.10.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zookeeper-3.4.13.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zstd-jni-1.3.5-4.jar (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,159] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,159] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,159] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,159] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,160] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,160] INFO Client environment:os.version=4.15.0-43-generic (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,160] INFO Client environment:user.name=user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,160] INFO Client environment:user.home=/home/user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,161] INFO Client environment:user.dir=/home/user/Downloads/kafka_2.11-2.1.0 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,163] INFO Initiating client connection, connectString=192.168.31.164:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@c2db68f (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:23,194] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:23,593] INFO Opening socket connection to server 192.168.31.164/192.168.31.164:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:23,932] INFO Socket connection established to 192.168.31.164/192.168.31.164:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:24,271] INFO Session establishment complete on server 192.168.31.164/192.168.31.164:2181, sessionid = 0x100006bf6370001, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:24,281] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:24,495] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:24,496] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:28,933] INFO Cluster ID = bN2BQyK8SSGPomz3pMview (kafka.server.KafkaServer)
+[2019-02-05 23:56:29,330] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:56:29,402] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:56:29,438] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:29,439] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:29,440] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:29,467] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.kafka.common.KafkaException: Failed to acquire lock on file .lock in /tmp/kafka-logs. A Kafka instance in another process or thread is using this directory.
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:240)
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:236)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at kafka.log.LogManager.lockLogDirs(LogManager.scala:236)
+	at kafka.log.LogManager.<init>(LogManager.scala:97)
+	at kafka.log.LogManager$.apply(LogManager.scala:990)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:237)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-02-05 23:56:29,469] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:56:29,472] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:29,548] INFO Session: 0x100006bf6370001 closed (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:56:29,552] INFO EventThread shut down for session: 0x100006bf6370001 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:29,553] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:56:29,555] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:30,441] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:30,442] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:30,441] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:30,499] WARN Client session timed out, have not heard from server in 6004ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:30,500] INFO Client session timed out, have not heard from server in 6004ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:31,441] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:31,441] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:31,442] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:32,301] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:32,302] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:32,442] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:32,442] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:56:32,457] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-02-05 23:56:32,458] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-02-05 23:56:32,461] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:56:38,308] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:38,308] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:40,194] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:40,195] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:46,198] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:46,198] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:47,561] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:47,562] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:53,565] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:53,565] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:54,671] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:56:54,672] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:00,679] WARN Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:00,680] INFO Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:02,736] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:02,737] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:08,743] WARN Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:08,744] INFO Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:10,434] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:10,435] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:16,441] WARN Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:16,442] INFO Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:18,461] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:18,462] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:24,468] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:24,468] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:26,181] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:26,182] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:32,189] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:32,189] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:33,428] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:33,429] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:39,435] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:39,435] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:41,508] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:41,508] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:47,511] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:47,512] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:48,645] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:48,646] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:54,653] WARN Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:54,654] INFO Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:56,376] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:56,377] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:58,046] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-02-05 23:57:58,255] INFO starting (kafka.server.KafkaServer)
+[2019-02-05 23:57:58,256] INFO Connecting to zookeeper on 192.168.31.164:2181 (kafka.server.KafkaServer)
+[2019-02-05 23:57:58,269] INFO [ZooKeeperClient] Initializing a new session to 192.168.31.164:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:57:58,325] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:host.name=boeingwave3-deepak (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.version=11.0.1 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.home=/usr/lib/jvm/java-11-oracle (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.class.path=/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/activation-1.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/audience-annotations-0.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/commons-lang3-3.5.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/compileScala.mapping.asc:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-api-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-basic-auth-extension-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-file-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-json-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-runtime-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/connect-transforms-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/guava-20.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-api-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-core-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-databind-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-base-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.7.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.inject-2.5.0-b42.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/javax.ws.rs-api-2.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jaxb-api-2.3.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-client-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-common-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-hk2-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-media-jaxb-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jersey-server-2.27.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-client-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-continuation-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-http-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-io-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-security-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-server-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlet-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-servlets-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jetty-util-9.4.12.v20180830.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka_2.11-2.1.0-sources.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-clients-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-log4j-appender-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-examples-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-scala_2.11-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-streams-test-utils-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/kafka-tools-2.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/log4j-1.2.17.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/lz4-java-1.5.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/maven-artifact-3.5.4.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/reflections-0.9.11.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/rocksdbjni-5.14.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-library-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/snappy-java-1.1.7.2.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zkclient-0.10.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zookeeper-3.4.13.jar:/home/user/Downloads/kafka_2.11-2.1.0/bin/../libs/zstd-jni-1.3.5-4.jar (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,326] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:os.version=4.15.0-43-generic (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:user.name=user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:user.home=/home/user (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,327] INFO Client environment:user.dir=/home/user/Downloads/kafka_2.11-2.1.0 (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,328] INFO Initiating client connection, connectString=192.168.31.164:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@c2db68f (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:58,339] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:57:58,373] INFO Opening socket connection to server 192.168.31.164/192.168.31.164:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:58,396] INFO Socket connection established to 192.168.31.164/192.168.31.164:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:58,431] INFO Session establishment complete on server 192.168.31.164/192.168.31.164:2181, sessionid = 0x100006bf6370002, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:58,441] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:57:59,016] INFO Cluster ID = bN2BQyK8SSGPomz3pMview (kafka.server.KafkaServer)
+[2019-02-05 23:57:59,319] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:57:59,328] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.1-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.1-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = 192.168.31.164:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-02-05 23:57:59,347] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:57:59,348] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:57:59,349] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:57:59,368] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.kafka.common.KafkaException: Failed to acquire lock on file .lock in /tmp/kafka-logs. A Kafka instance in another process or thread is using this directory.
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:240)
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:236)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at kafka.log.LogManager.lockLogDirs(LogManager.scala:236)
+	at kafka.log.LogManager.<init>(LogManager.scala:97)
+	at kafka.log.LogManager$.apply(LogManager.scala:990)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:237)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-02-05 23:57:59,370] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:57:59,371] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:57:59,388] INFO Session: 0x100006bf6370002 closed (org.apache.zookeeper.ZooKeeper)
+[2019-02-05 23:57:59,391] INFO EventThread shut down for session: 0x100006bf6370002 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:57:59,391] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-02-05 23:57:59,393] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:00,349] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:00,349] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:00,350] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:01,349] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:01,349] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:01,350] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:02,350] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:02,350] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-02-05 23:58:02,367] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-02-05 23:58:02,368] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-02-05 23:58:02,372] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-02-05 23:58:02,383] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:02,383] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:04,197] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:04,198] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:10,204] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:10,204] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:11,431] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:11,432] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:17,433] WARN Client session timed out, have not heard from server in 6001ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:17,433] INFO Client session timed out, have not heard from server in 6001ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:18,187] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-02-05 23:58:19,242] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:19,244] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:25,246] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:25,247] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:27,277] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:27,278] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:33,283] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:33,284] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:34,721] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:34,722] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:40,722] WARN Client session timed out, have not heard from server in 6001ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:40,723] INFO Client session timed out, have not heard from server in 6001ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:41,989] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:41,990] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:47,995] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:47,996] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:49,111] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:49,112] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:55,117] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:55,118] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:56,247] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:58:56,247] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:02,253] WARN Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:02,253] INFO Client session timed out, have not heard from server in 6007ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:03,785] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:03,786] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:09,791] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:09,792] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:11,341] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:11,342] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:17,348] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:17,348] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:19,125] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:19,126] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:25,133] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:25,133] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:26,957] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:26,958] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:32,965] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:32,965] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:34,449] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:34,450] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:40,457] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:40,457] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:41,893] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:41,894] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:47,897] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:47,898] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:49,640] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:49,641] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:55,648] WARN Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000 (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:55,648] INFO Client session timed out, have not heard from server in 6006ms for sessionid 0x10014f1cdf80000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:57,700] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-02-05 23:59:57,701] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)

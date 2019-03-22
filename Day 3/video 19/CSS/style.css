@@ -1,0 +1,14 @@
+body {
+    background: gray;
+}
+h1 {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Gamja Flower', cursive;
+    letter-spacing: 35px;
+    text-transform: uppercase;
+    text-shadow: 
+    5px 10px 10px white,
+    5px 10px 10px rgb(155, 14, 14);
+}

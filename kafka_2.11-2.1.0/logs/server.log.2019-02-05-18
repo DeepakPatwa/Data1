@@ -1,0 +1,7 @@
+[2019-02-05 18:05:53,972] INFO Accepted socket connection from /127.0.0.1:59024 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-02-05 18:05:54,233] INFO Client attempting to establish new session at /127.0.0.1:59024 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-02-05 18:05:54,391] INFO Established session 0x10014f1cdf80003 with negotiated timeout 30000 for client /127.0.0.1:59024 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-02-05 18:05:54,440] INFO Processed session termination for sessionid: 0x10014f1cdf80003 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-02-05 18:05:54,670] INFO Closed socket connection for client /127.0.0.1:59024 which had sessionid 0x10014f1cdf80003 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-02-05 18:06:52,084] INFO Got user-level KeeperException when processing sessionid:0x10014f1cdf80000 type:setData cxid:0xae zxid:0x12f txntype:-1 reqpath:n/a Error Path:/config/topics/deepak Error:KeeperErrorCode = NoNode for /config/topics/deepak (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-02-05 18:31:23,518] INFO Got user-level KeeperException when processing sessionid:0x10014f1cdf80000 type:setData cxid:0xc1 zxid:0x135 txntype:-1 reqpath:n/a Error Path:/config/topics/Kafka_Example_json Error:KeeperErrorCode = NoNode for /config/topics/Kafka_Example_json (org.apache.zookeeper.server.PrepRequestProcessor)
